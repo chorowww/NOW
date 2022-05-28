@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width: 1140px;
+  margin: 0 auto;
+}
+@mixin btn{
+  width: 247px;
+  height: 65px;
+  background: #F7A325;
+  border-radius: 30px;
+  color: rgba(0, 0, 0, 0.96);
+  font-size: 23px;
+  transition: .4s;
+  &:hover{
+    transform: scale(1.1);
+    background: #06c;
+  }
+.imen-general{
+  transition: .4s;
+
+}
+
+}
+
